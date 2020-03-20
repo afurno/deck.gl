@@ -26,7 +26,8 @@ const ambientLight = new AmbientLight({
 const pointLight = new PointLight({
   color: [255, 255, 255],
   intensity: 2.0,
-  position: [-74.05, 40.7, 8000]
+  //position: [-74.05, 40.7, 8000]
+  position: [5.17, 45.51, 8000]
 });
 
 const lightingEffect = new LightingEffect({ambientLight, pointLight});
@@ -47,14 +48,15 @@ const DEFAULT_THEME = {
 };
 
 const INITIAL_VIEW_STATE = {
-  longitude: -74,
-  latitude: 40.72,
-  zoom: 13,
+  longitude: 4.85,
+  latitude: 45.75,
+  zoom: 11,
   pitch: 45,
   bearing: 0
 };
 
-const landCover = [[[-74.0, 40.7], [-74.02, 40.7], [-74.02, 40.72], [-74.0, 40.72]]];
+//const landCover = [[[-74.0, 40.7], [-74.02, 40.7], [-74.02, 40.72], [-74.0, 40.72]]];
+const landCover = [[[5.17, 45.51], [4.58, 45.51], [4.58, 45.99], [5.17, 45.99]]];
 
 export default class App extends Component {
   constructor(props) {

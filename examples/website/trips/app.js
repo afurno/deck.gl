@@ -15,7 +15,7 @@ const DATA_URL = {
   BUILDINGS:
     'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/trips/buildings.json', // eslint-disable-line
   TRIPS:
-    'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/trips/trips-v7.json' // eslint-disable-line
+    'https://raw.githubusercontent.com/afurno/deck.gl/master/test.json' // eslint-disable-line
 };
 
 const ambientLight = new AmbientLight({
